@@ -1,7 +1,0 @@
-body{background-color:#000}
-.backstretch{filter:saturate(75%) brightness(50%) blur(3px);}
-.logo>img{border-radius:100%}
-h1,p{color:lightgrey}
-@media screen and (max-device-width:600px) and (min-aspect-ratio:9/17){.backstretch>img{left:unset!important;right:-125vw!important;}}
-@media screen and (max-device-width:600px) and (min-aspect-ration:3/5){.backstretch>img{left:unset!important;right:-110vw!important;}}
-@media screen and (max-device-width:420px) {h1{font-size:56px}i.fa{font-size:22px;padding-left:6px;padding-right:6px}}
