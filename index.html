@@ -74,396 +74,349 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><a href="#" ><img src="images/avatar.jpg" alt="home" /></a></span>
-					<h1 id="logo"><a href="https://saechaol.com">Lucas</a></h1>
-					<p>College student</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#elements">Elements</a></li>
-						<li><a href="#lists">Lists</a></li>
-						<li><a href="#tables">Tables</a></li>
-						<li><a href="#buttons">Buttons</a></li>
-						<li><a href="#forms">Forms</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://blog.saechaol.com/" class="icon fa-rss"><span class="label">Home</span></a></li>
-						<li><a href="https://linkedin.com/in/lucassaechao" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/saechaol" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.instagram.com/natsuiroegao/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="mailto:lucassaechao@csus.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+		<section id="header">
+			<header>
+				<span class="image avatar"><a href="#" ><img src="images/avatar.jpg" alt="home" /></a></span>
+				<h1 id="logo"><a href="https://saechaol.com" target="_blank" rel="noopener noreferrer">Lucas</a></h1>
+				<p>New Grad Software Engineer</p>
+			</header>
+			<nav id="nav">
+				<ul>
+					<li><a href="#overview">Overview</a></li>
+					<li><a href="#trafficsim">VR TrafficSim</a></li>
+					<li><a href="#learningapp">Learning Assistant</a></li>
+					<li><a href="#arhoops">AR Hoops</a></li>
+					<li><a href="#postcards">Postcards</a></li>
+					<li><a href="#simplecalc">Simple iOS Calculator</a></li>
+				</ul>
+			</nav>
+			<footer>
+				<ul class="icons">
+					<li><a href="https://blog.saechaol.com/" target="_blank" rel="noopener noreferrer" class="icon fa-rss"><span class="label">Home</span></a></li>
+					<li><a href="https://linkedin.com/in/lucassaechao" target="_blank" rel="noopener noreferrer" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/saechaol" target="_blank" rel="noopener noreferrer" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.instagram.com/saechaoll/" target="_blank" rel="noopener noreferrer" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="mailto:lucas@saechaol.com" target="_blank" rel="noopener noreferrer" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</footer>
+		</section>
 
-					<!--	Unimplemented
-
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-
-								<li><a href="https://twitter.com/saechaolucas" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-
-					-->
-					</ul>
-				</footer>
-			</section>
-
-		<!-- Title bar
-		<div id="titleBar">
-			<a href="#header" class="toggle">
-				::before
-			</a>
-			<span class="title">
-				<a href="https://saechaol.com">Lucas</a>
-			</span>
-		</div>
-	-->
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 
-				<!-- Main -->
-					<div id="main">
+			<!-- Main -->
+			<div id="main">
+				<div class="container">
 
-							<section id="elements">
-								<div class="container">
-									<h3>Elements</h3>
-
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
-
-									<section id="lists">
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="col-6 col-12-xsmall">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button primary small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6 col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
-
-									<section id="tables">
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-									<section id="buttons">
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary large">Large</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon fa-download">Icon</a></li>
-											<li><a href="#" class="button icon fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Primary</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
-
-									<section id="forms">
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row gtr-uniform">
-												<div class="col-6 col-12-xsmall">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-xsmall">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<select name="demo-category" id="demo-category">
-														<option value="">- Category -</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
-													</select>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-												<div class="col-12">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-										<div class="box alt">
-											<div class="row gtr-50 gtr-uniform">
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
-
+					<section class="overview" id="overview">
+						<h3 class="section-title">
+							Overview
+						</h3>
+						<section>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><span class="image fit"><img src="images/upper-profile.jpg" alt="An upper-body image of me." /></span></div>
 								</div>
-							</section>
+							</div>
+							<h4>About Me</h4>
 
+							<p>
+								I'm a graduating senior from <a href="https://csus.edu/" target="_blank" rel="noopener noreferrer">Sacramento State</a>, planning to earn my Bachelors of Science in Computer Science 
+								in May 2021. Enthusastic, and inquisitve, I'm a team-oriented individual looking to make my first steps in a 
+								fulltime career in computing and software engineering. In this page, you can see some of my projects I've worked 
+								on at school, and on my own.
+							</p>
+							<p>
+								I specialize mainly in client-side application development, with Java, but I'm open to exploring new technologies
+								and have personally experimented with using Scikit Learn, TensorFlow and Keras for machine learning, as well as
+								a couple of different stacks (MEVN, Vue, MongoDB, GraphQL), for full-stack development. This page will be continuously 
+								updated with more projects as I complete or work on them in my own time.
+							</p>
+							<p>My software interests include:</p>
+							<ul>
+								<li>Artificial Intelligence</li>
+								<li>Machine Learning</li>
+								<li>Computer Vision</li>
+								<li>Graphics Programming</li>
+							</ul>
+						</section>
+						<section>
+							<h4>Other Things About Me</h4>
+							<p>
+								I have several other interests that extend beyond the realm of computer science as well!
+							</p>
+							<ul>
+								<li>I'm a hobbyist photographer since I was in high school, and have been practicing for 9 years.</li>
+								<li>I enjoy spending my free time doing community service and connecting with others.</li>
+								<li>
+									I've been a member of the Kiwanis Family since high school; Key Club back then, 
+									Circle K International during college, in which I've held several leadership positions.
+								</li>
+								<li>I enjoy playing golf, and would regularly play at my local golf course, pre-COVID.</li>
+							</ul>
+						</section>
+						<section>
+							<p>My affiliate links are at the bottom of the page navigator, or you can head over to 
+								<a alt="Link to my home page" href="https://saechaol.com/" target="_blank" rel="noopener noreferrer">my website hub</a> to see them!
+							</p>
+						</section>
 
-					</div>
+					</section>
+
+					<section id="trafficsim">
+						<h3 class="section-title">Virtual Reality Traffic Simulator</h3>
+
+						
+						<section>
+							<h4>Project demo</h4>
+							<div class="video-container">
+								<iframe src="https://www.youtube.com/embed/nHGenPe-CTo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</section>
+						<section>
+							<h4>Project overview</h3>
+								<p>
+									<a href="https://pastachefs.github.io/trafficsim/" alt="Link to project website." target="_blank" rel="noopener noreferrer">TrafficSim</a> 
+									is a virtual reality application built on Unreal 4.23 (C++) for the Oculus Rift, controlled using a 
+									Logitech steering wheel input, developed by myself and my team. It is designed as a product to enable 
+									researchers to observe and model driver behavior and interactions in a realistic setting. The application 
+									presents to the user several different prebuilt maps to choose from, and also includes a built-in map editor, 
+									both of which are intended to be used by our client, with little technical ability required to use the software. 
+									While similar driving simulation tools already exist, this VR application comes without the same cost overhead to 
+									our client as dedicated driving simulation hardware, as the costs incurred for this project would be the Oculus and 
+									VR ready computer.
+								</p>
+								<p>
+									When the player is seated into the game world, they are loaded into any of the pre-built or user made maps, 
+									and every action, reaction or input made is logged into an external spreadsheet for further statistical analysis. 
+									The player is able to drive around in the various conditions, time of day, and road hazards, as well as interact with 
+									and avoid neighboring NPC cars.
+								</p>
+						</section>
+						<section>
+							<h4>Upcoming Features</h4>
+							<p>
+								The planned feature roadmap includes:
+							</p>
+							<ul>
+								<li>
+									Adding more road types such as intersections and highway interchanges.
+								</li>
+								<li>
+									Adding stop signs, traffic lights, and construction/school zone signs.
+								</li>
+								<li>
+									Allowing the user to save a custom created map.
+								</li>
+								<li>
+									Traffic density control, so the user/researcher can input a hard value for NPC generation.
+								</li>
+								<li>
+									Dynamic and real time weather conditions, currently only fog density is implemented.
+								</li>
+								<li>
+									Programmable and timeable pedestrian behavior.
+								</li>
+								<li>
+									A scenario editor, so the user/researcher can load a specific combination of maps and map settings for more consistent observation environments.
+								</li>
+							</ul>
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>
+								I am also responsible for maintaining the project website.
+							</p>
+							<p>[<a alt="Project website link" href="https://pastachefs.github.io/trafficsim/" target="_blank" rel="noopener noreferrer">Project Website</a>]</p>
+						</section>
+						
+					</section>
+
+					<section id="learningapp">
+						<h3 class="section-title">AWS Learning Assistant</h4>
+						
+						<section>
+							<h4>Project demo</h4>
+							<p>
+								The EC2 instance containing the .NET application providing the web service is currently suspended to reduce costs at my 
+								personal expense.
+							</p>
+							<div class="video-container">
+								<iframe src="https://www.youtube.com/embed/YFPar6fbaAc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</section>
+						<section>
+							<h4>Project overview</h4>
+							<p>
+								A <a alt="Github link" href="https://github.com/saechaol/learning-app" target="_blank" rel="noopener noreferrer">learning application</a>, built using Android Studio and Visual 
+								Studio which supports registration, communication, and task scheduling, that communicates directly with an AWS EC2 
+								instance with a .NET application providing a REST API endpoint and an RDS backend layer. The application client itself 
+								is built using Java, and it connects to an RDS instance which stores user information, class schedules, and tasks.
+							</p>
+						</section>
+						<section>
+							<h4>
+								About the API
+							</h4>
+							<p>
+								There are several API controllers implemented in C++ in the .NET application that the client uses to fetch data relevent 
+								to each screen, as well as update user, subject, and task information to the database. Each POST method is protected using an 
+								implicit transactions to prevent mishandling of data should the service be interrupted mid-request. The webservice itself is 
+								load balanced using AWS's built in featureset for EC2 instances, and SSL certificate to serve the endpoint over HTTPS.
+							</p>
+							
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/learning-app" target="_blank" rel="noopener noreferrer">GitHub</a>]</p>
+						</section>
+						
+					</section>
+
+					<section id="arhoops">
+						<h3 class="section-title">Augmented Reality Basketball Shootout</h3>
+						
+						<section>
+							<h4>Project demo</h4>
+							<div class="video-container">
+								<iframe src="https://www.youtube.com/embed/J_wH4-Hnxuk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</section>
+						<section>
+							<h4>Project Overview</h4>
+							<p>
+								<a href="https://github.com/saechaol/ar-basketball-app" target="_blank" rel="noopener noreferrer">AR Hoops</a> is an augmented reality application my team 
+								and I built in 24-36 hours as a submission for the hackathon SacHacks 2021. The project is written entirely in 
+								Swift, using Apple's ARKit and RealityKit frameworks. The user is able to shoot the ball towards the hoop, 
+								by swiping upwards on the screen and reset its position in world space by pressing the button on the bottom. 
+								We are responsible for the design and model of the basketball hoop. The ball and court is generated in-application.
+							</p>
+						</section>
+						<section>
+							<h4>Interesting Challenges</h4>
+							<p>
+								My team and I took on this project despite none of us having any experience in either Augmented Reality applications,
+								or an extensive Swift background. We're proud that we were able to build working prototype of the app, but we did face 
+								some rather interesting challenges along the way.
+							</p>
+							<p>
+								Since none of us either had experience with Swift or augmented reality applications, a lot of time was spent studying 
+								Apple's documentation for how to use ARKit/RealityKit. Luckily, Apple's documentation is rather extensive and we were 
+								able to set up both the physics engine for the ball, and load in our models to the game.
+							</p>
+							<p>
+								Lastly, the way that the ball is moved is dependent on the player's orientation to it, and we had assumed that 
+								the player would always be facing the hoop, making our swipes dependent on that direction. If you swipe left, 
+								the ball would bounce towards the -X axis. <i>However,</i> we hadn't considered "What if the player moves 
+								<i>behind</i> the ball? Sure enough, standing behind the ball and swiping left didn't move the ball to 
+								the left, relative to our position, but <i>towards</i> the -X direction. To solve this, we implemented a 
+								distance checker between the ball's position in world-space, the hoop's location in world-space, 
+								and the <i>phone's</i> position in world-space. Whichever object was closer to the hoop would determine 
+								which direction the ball would fly if swiped left or right. This is because logically, if the player 
+								is closer to the hoop than the ball, then the player is behind the ball. Conversely, if the player is 
+								further from the hoop than the ball, then the player must be in front of it.
+							</p>
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/ar-basketball-app" target="_blank" rel="noopener noreferrer">GitHub</a>]</p>
+						</section>
+					</section>
+
+					<section id="postcards">
+						<h3 class="section-title">Postcards</h3>
+						<section>
+							<h4>Project demo</h4>
+							<div class="video-container">
+								<iframe src="https://www.youtube.com/embed/l0MT385sdus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</section>
+						<section>
+							<h4>Project Overview</h4>
+							<p>
+								<a alt="Github link" href="https://github.com/saechaol/fullstack-vue-graphql-web-app" target="_blank" rel="noopener noreferrer">Postcards</a> is a full-stack social media web application that I'm currently building that supports secure 
+								user signup, login, authentication, photo posting, tagging, liking and commenting, using the Vue.js framework on 
+								the frontend and MongoDB Atlas on the backend. Data is fetched and mutated through GraphQL API endpoint that 
+								interfaces with the database. The project is prototyped on Figma and I am expecting to complete it by late-February, 
+								or early March 2021.
+							</p>
+						</section>
+						<section>
+							<h4>Demoed Features</h4>
+							<p>
+								The video demo currently showcases the following features:
+							</p>
+							<ul>
+								<li>Home page with post carousel.</li>
+								<li>User sign in with lazy form validation.</li>
+								<li>Posting of an image.</li>
+								<li>Favoriting a post.</li>
+								<li>Commenting on a post.</li>
+								<li>Responsive sidebar navigation.</li>
+							</ul>
+							<p>The following features are not shown, but are implemented:</p>
+							<ul>
+								<li>User registration.</li>
+								<li>Infinite scrolling.</li>
+								<li>Logging out.</li>
+							</ul>
+						</section>
+						<section>
+							<h4>Remaining Features</h4>
+							<p>The following list details the features I plan to implement:</p>
+							<ul>
+								<li>User profile page.</li>
+								<li>Post searching and indicing.</li>
+							</ul>
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/fullstack-vue-graphql-web-app" target="_blank" rel="noopener noreferrer">GitHub</a>]</p>
+						</section>
+					</section>
+
+					<section id="simplecalc">
+						<h3 class="section-title">Simple iOS Calculator</h3>
+						<section>
+							<h4>Project demo</h4>
+							<div class="video-container">
+								<iframe src="https://www.youtube.com/embed/qL4svrNCTGk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</section>
+						<section>
+							<h4>Project Overview</h4>
+							<p>
+								<a alt="Github link" href="https://github.com/saechaol/ios-calculator" target="_blank" rel="noopener noreferrer">Simple iOS Calculator</a> is a fairly self descriptive project. It's an iOS application, built in Swift, 
+								that supports several programming calculation features. As a calculator, it can perform your run-of-the-mill numerical 
+								calculations, as well as perform base conversions, modulo, and bitwise operations.
+							</p>
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/ios-calculator" target="_blank" rel="noopener noreferrer">GitHub</a>]</p>
+						</section>
+					</section>
+				</div>
+				
 			</div>
+		</div>
 
+		<!-- Footer -->
+		<section id="footer">
+			<div id="wrapper">
+				<div class="container">
+					<nav id="nav"><a href="https://www.saechaol.com/" target="_blank" rel="noopener noreferrer">home</a> / <a href="#overview">back to top</a></nav>
+				</div>
+			</div>
+		</section>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
