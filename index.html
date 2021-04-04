@@ -46,7 +46,7 @@
 		    "sameAs": [
 		        "https://github.com/saechaol",
 		        "https://linkedin.com/in/lucassaechao",
-		        "https://instagram.com/natsuiroegao",
+		        "https://instagram.com/saechaoll",
 		        "https://athena.ecs.csus.edu/~saechaol/",
 						"https://saechaol.github.io/",
 						"https://saechaol.com/",
@@ -84,6 +84,11 @@
 				<ul>
 					<li><a href="#overview">Overview</a></li>
 					<li><a href="#trafficsim">VR TrafficSim</a></li>
+					<li><a href="#vrcade">VRcade</a></li>
+					<li><a href="#computervision">CIFAR-10 Image Classifier</a></li>
+					<li><a href="#binaryclassifier">Network Intrusion Detector</a></li>
+					<li><a href="#translator">Live Translator</a></li>
+					<li><a href="#logregression">Yelp Rating Predictor</a></li>
 					<li><a href="#learningapp">Learning Assistant</a></li>
 					<li><a href="#arhoops">AR Hoops</a></li>
 					<li><a href="#postcards">Postcards</a></li>
@@ -232,6 +237,162 @@
 						
 					</section>
 
+					<section id="vrcade">
+						<h3 class="section-title">VRcade</h4>
+						
+						<section>
+							<h4>Project demo</h4>
+							<div class="video-container">
+								<iframe src="https://www.youtube.com/embed/TZuk-5d6D58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</section>
+						<section>
+							<h4>Project overview</h4>
+							<p>
+								<a href="https://devpost.com/software/vrcade-6fn5vt">VRcade</a> is a prize winning submission to the Virtual Reality hackathon "HackReality", on March 2021. In one week,
+								our team was tasked with developing a virtual reality application with the hardware and tools of our choice. VRcade is developed
+								using C# on the Unity engine, and deployed to the Oculus Quest. At the time of submission it had supported four activities, billiards,
+								ping pong, tennis, and air hockey. A fifth activity, foosball, was also planned.
+							</p>
+						</section>
+						<section>
+							<h4>
+								Development
+							</h4>
+							<p>
+								Over the course of the hackathon, I worked with my team to quickly prototype different possible ideas that we could 
+								use to work on, considering our limited time frame to accomplish it. We used Unity's Oculus Integration Package and 
+								Microsoft's Mixed Reality Toolkit in order to get motion tracking and hand tracking to work. For Billiards, we also 
+								provided functionality for the player to scan in a real-world table to use as support in-game. We also used Unity's
+								built in version control software, Unity Collab, in order to keep track of each others changes in real time.
+							</p>
+							
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>Awarded 3rd Place Prize - Best use of AR/VR for Entertainment/Games </p>
+							<p>[<a alt="Devpost link" href="https://devpost.com/software/vrcade-6fn5vt" target="_blank" rel="noopener noreferrer">Devpost</a>] [<a alt="Figma prototype link" href="https://www.figma.com/file/pfVKioxPdRGujhjS0DBB7D/VRcade?node-id=0%3A1" target="_blank" rel="noopener noreferrer">Figma</a>] [<a alt="Link to APK file" href="https://drive.google.com/drive/folders/1-Rim4zsIVRMpW6XNs5Y8ou70GGmZi5NX?usp=sharing" target="_blank" rel="noopener noreferrer">Build Archive</a>]</p>
+						</section>
+						
+					</section>
+
+					<section id="computervision">
+						<h3 class="section-title">CIFAR-10-Based Image Classifier</h4>
+						
+						<section>
+							<h4>Project overview</h4>
+							<p>
+								The <a href="https://github.com/saechaol/cifar">CIFAR-10-Based Image Classifier is</a> a computer vision, convolutional neural network model designed to classify images from the CIFAR-10
+								dataset. This dataset contained ten different types of images to classify: airplane, automobile, bird, cat, deer, dog, frog, 
+								horse, ship, and truck. We also utilized <b>transfer learning</b> to build a secondary neural network based on the VGG16 model,
+								and performed an examination of their performance.
+							</p>
+						</section>
+						<section>
+							<h4>
+								Development
+							</h4>
+							<p>
+								Feature extraction is performed using a convolutional neural network (CNN) architecture, with 10 possible outputs.
+								The CNN is comprised of multiple hidden layers with a 3x3 convolution kernel with strides 1 and 2, using relu activation, 
+								several 2x2 max pooling layers, dropout layers, and compiled with categorical crossentropy and the adam optimizer.
+								The CIFAR-10 based model achieves a 76% accuracy rate, outperforming the transfer learning VGG16-based model, 
+								which achieved a 71% accuracy rate.
+							</p>
+							
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/cifar" target="_blank" rel="noopener noreferrer">GitHub</a>] [<a alt="Report link" href="https://saechaol.com/images/pdf/ml_cifar_report.pdf" target="_blank" rel="noopener noreferrer">Project Report</a>]</p>
+						</section>
+						
+					</section>
+
+					<section id="binaryclassifier">
+						<h3 class="section-title">Network Intrusion Detector</h4>
+						
+						<section>
+							<h4>Project overview</h4>
+							<p>
+								The <a href="https://github.com/saechaol/network-intrusion-detector">Network Intrusion Detector</a> is a binary classification machine learning model, built using a series of
+								convolution kernels and max pooling layers, trained on the KDD Cup 1999 dataset. The model seeks to distinguish 
+								between well-intentioned and malicious network connections, and identify which is which. The model has an ROC
+								curve of 1.0, and generalized <i>extremely</i> well to the test data, even with a 25%/75% training/test split, 
+								and as a result, is highly accurate.
+							</p>
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/network-intrusion-detector" target="_blank" rel="noopener noreferrer">GitHub</a>] [<a alt="Github link" href="https://saechaol.com/images/pdf/ml_nid_report.pdf" target="_blank" rel="noopener noreferrer">Project Report</a>]</p>
+						</section>
+						
+					</section>
+
+					<section id="translator">
+						<h3 class="section-title">Live Translator</h4>
+						
+						<section>
+							<h4>Project demo</h4>
+							<div class="video-container">
+								<iframe src="https://www.youtube.com/embed/FqElajpIIBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</section>
+						<section>
+							<h4>Project overview</h4>
+							<p>
+								<a href="https://github.com/saechaol/sf-hacks/">Live Translator</a> is a submission to the hackathon, "SF Hacks" in March 2021, for the Health and Wellness track.
+								The project aimed to allow two individuals to communicate in different languages utilizing the Google Translation API. My managed to develop a working
+								frontend using React Native, which we were proud of as at the time, only one individual on our team was proficient with it.
+							</p>
+						</section>
+						<section>
+							<h4>
+								Development
+							</h4>
+							<p>
+								We developed the frontend as an Android app primarily using React Native. We planned to use Google's Cloud Translation API
+								as the backend for our application. We prototyped our user interface on Figma. By submission time, we managed to implement 
+								voice recognition, and the user interface for the chat application.
+							</p>
+							
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/sf-hacks/" target="_blank" rel="noopener noreferrer">GitHub</a>] [<a alt="Devpost link" href="https://devpost.com/software/live-translator" target="_blank" rel="noopener noreferrer">Devpost</a>] [<a alt="Figma link" href="https://www.figma.com/proto/gHWCAC9LmStnBSz8wrcfmz/pt-2?node-id=1%3A2&scaling=scale-down" target="_blank" rel="noopener noreferrer">Figma</a>]</p>
+						</section>
+						
+					</section>
+
+					<section id="logregression">
+						<h3 class="section-title">Yelp Rating Predictor</h4>
+						
+						<section>
+							<h4>Project overview</h4>
+							<p>
+								The <a href="https://github.com/saechaol/yelp-data-challenge">Yelp Rating Predictor</a> is a logistic regression model 
+								trained using Yelp's academic dataset. The model is trained on the entire corpus of Yelp's provided review text, and 
+								attempts to predict the score rating of a particular business based on its reviews.
+							</p>
+						</section>
+						<section>
+							<h4>
+								Model Architecture
+							</h4>
+							<p>
+								The model consists of three fully connected layers, using tanh, sigmoid, and relu activation functions. The model is compiled
+								using the adam optimizer. Feature extraction was performed over the entire body of Yelp's review text using TF-IDF vectorization. 
+								Due to hardware limitations, only 1000 features were able to be vectorized and one-hot encoded. The model achieves an RMSE score of 
+								0.2978, and demonstrated that the model generalized the dataset fairly well. 
+							</p>
+							
+						</section>
+						<section>
+							<h4>Miscellaneous</h4>
+							<p>[<a alt="Github link" href="https://github.com/saechaol/yelp-data-challenge" target="_blank" rel="noopener noreferrer">GitHub</a>] [<a alt="Report" href="https://saechaol.com/images/pdf/yelp_report.pdf" target="_blank" rel="noopener noreferrer">Project Report</a>]</p>
+						</section>
+						
+					</section>
+
 					<section id="learningapp">
 						<h3 class="section-title">AWS Learning Assistant</h4>
 						
@@ -262,7 +423,7 @@
 								There are several API controllers implemented in C++ in the .NET application that the client uses to fetch data relevent 
 								to each screen, as well as update user, subject, and task information to the database. Each POST method is protected using an 
 								implicit transactions to prevent mishandling of data should the service be interrupted mid-request. The webservice itself is 
-								load balanced using AWS's built in featureset for EC2 instances, and SSL certificate to serve the endpoint over HTTPS.
+								load balanced using AWS's built in feature set for EC2 instances, and SSL certificate to serve the endpoint over HTTPS.
 							</p>
 							
 						</section>
@@ -334,11 +495,10 @@
 						<section>
 							<h4>Project Overview</h4>
 							<p>
-								<a alt="Github link" href="https://github.com/saechaol/fullstack-vue-graphql-web-app" target="_blank" rel="noopener noreferrer">Postcards</a> is a full-stack social media web application that I'm currently building that supports secure 
+								<a alt="Github link" href="https://github.com/saechaol/fullstack-vue-graphql-web-app" target="_blank" rel="noopener noreferrer">Postcards</a> is a full-stack social media web application that supports secure 
 								user signup, login, authentication, photo posting, tagging, liking and commenting, using the Vue.js framework on 
 								the frontend and MongoDB Atlas on the backend. Data is fetched and mutated through GraphQL API endpoint that 
-								interfaces with the database. The project is prototyped on Figma and I am expecting to complete it by late-February, 
-								or early March 2021.
+								interfaces with the database.
 							</p>
 						</section>
 						<section>
@@ -358,15 +518,9 @@
 							<ul>
 								<li>User registration.</li>
 								<li>Infinite scrolling.</li>
-								<li>Logging out.</li>
-							</ul>
-						</section>
-						<section>
-							<h4>Remaining Features</h4>
-							<p>The following list details the features I plan to implement:</p>
-							<ul>
 								<li>User profile page.</li>
 								<li>Post searching and indicing.</li>
+								<li>Logging out.</li>
 							</ul>
 						</section>
 						<section>
